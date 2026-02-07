@@ -69,7 +69,7 @@ export default function Home() {
                     <img
                         src="/heroimage.png"
                         alt="Villa Care Hero"
-                        className="w-full h-full object-cover brightness-[0.4] gradient-mask"
+                        className="w-full h-full object-cover brightness-[0.85] gradient-mask"
                     />
                     <div className="absolute inset-0 hero-gradient" />
                 </motion.div>
@@ -148,12 +148,12 @@ export default function Home() {
                                     <span className="text-xs font-mono text-accent-rose/50">{pillar.id}</span>
                                 </div>
                                 <h4 className="text-xl font-bold mb-4 tracking-wider">{pillar.title}</h4>
-                                <p className="text-sm text-text-ivory/60 mb-8 leading-relaxed">
+                                <p className="text-sm text-text-ivory/78 mb-8 leading-relaxed">
                                     {pillar.desc}
                                 </p>
                                 <ul className="space-y-3">
                                     {pillar.items.map((item) => (
-                                        <li key={item} className="flex items-center gap-3 text-[0.65rem] uppercase tracking-widest text-text-ivory/40">
+                                        <li key={item} className="flex items-center gap-3 text-[0.65rem] uppercase tracking-widest text-text-ivory/55">
                                             <CheckCircle2 size={12} className="text-brand-teal" /> {item}
                                         </li>
                                     ))}
