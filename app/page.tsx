@@ -6,48 +6,46 @@ import { Shield, Droplets, Zap, Home as HomeIcon, Waves, Activity, CheckCircle2,
 import { useRef } from "react";
 
 const pillars = [
-    {
-        id: "01",
-        title: "Aquatic Engineering",
-        desc: "Precision water chemistry, filtration optimization, and leak forensics.",
-        items: ["Chemistry Balancing", "Pump Servicing", "Dosing Systems", "Leak Investigation"],
-        icon: Droplets,
-    },
-    {
-        id: "02",
-        title: "Mechanical & Electrical",
-        desc: "Hyper-efficient HVAC tuning, plumbing resilience, and fault triage.",
-        items: ["HVAC Performance", "Tuned Plumbing", "Boiler Descaling", "Electrical Audit"],
-        icon: Zap,
-    },
-    {
-        id: "03",
-        title: "Building Envelope",
-        desc: "Structural integrity monitoring from roof ingress to window seals.",
-        items: ["Ingress Prevention", "Gutter Flow", "Facade Monitoring", "Seal Integrity"],
-        icon: HomeIcon,
-    },
-    {
-        id: "04",
-        title: "Maritime Resilience",
-        desc: "Salt-air corrosion defense and humidity strategic management.",
-        items: ["Corrosion Control", "Hardware Protection", "Mould Prevention", "Sea-Air Strategy"],
-        icon: Waves,
-    },
-    {
-        id: "05",
-        title: "Emergency Response",
-        desc: "Rapid response protocols and emergency stabilization units.",
-        items: ["Rapid Call-outs", "Fire Safety", "Water Shutoff", "Emergency Plans"],
-        icon: Shield,
-    },
-    {
-        id: "06",
-        title: "The Asset Register",
-        desc: "Meticulously measured notes, photo logs, and vendor oversight.",
-        items: ["Preventive Maintenance", "Digital Logbooks", "Quarterly Reporting", "Vendor Audit"],
-        icon: Activity,
-    },
+  {
+    id: "01",
+    title: "Pool & Water Systems — Pool Maintenance Dubrovnik",
+    desc: "Comprehensive stewardship of your aquatic assets, ensuring technical precision and crystal-clear perfection.",
+    items: [
+      "Water chemistry testing & balancing (clarity, hygiene, comfort)",
+      "Filtration/circulation servicing (filters, pumps, valves, flow/pressure)",
+      "Equipment servicing (heaters/heat pumps, chlorination/dosing systems, controls)",
+      "Leak investigation & performance troubleshooting",
+      "Seasonal opening & winterisation",
+    ],
+    icon: Droplets,
+  },
+  {
+    id: "02",
+    title: "Core Home Systems — HVAC Servicing Dubrovnik / Air Conditioning Maintenance",
+    desc: "Optimizing the mechanical heart of your villa for maximum efficiency and climate resilience.",
+    items: [
+      "HVAC servicing & performance tuning (filters, drains, airflow, calibration)",
+      "Plumbing inspections & leak prevention (wet areas, valves, pressure)",
+      "Hot water system maintenance (boilers/heat pumps/cylinders; descaling as needed)",
+      "Electrical fault triage + coordination of certified compliance works",
+    ],
+    icon: Zap,
+  },
+  {
+    id: "03",
+    title: "Coastal Property Maintenance / Corrosion Control",
+    desc: "Specialized protection against Mediterranean elements and technical infrastructure oversight.",
+    items: [
+      "Roof/terrace water-ingress inspections & prevention",
+      "Gutters, drains & stormwater flow checks/clearing",
+      "Door/window hardware, seals & corrosion-sensitive components upkeep",
+      "Facade/stone condition monitoring + specialist coordination",
+      "Salt-air protection, corrosion control, and marine-grade recommendations",
+      "Humidity monitoring & mould-prevention actions (ventilation/dehumidifier strategy)",
+      "Safety checks + emergency property response Dubrovnik (isolation/shutoffs, stabilisation, documented call-outs)",
+    ],
+    icon: Shield,
+  },
 ];
 
 export default function Home() {
