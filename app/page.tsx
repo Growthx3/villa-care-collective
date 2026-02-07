@@ -6,46 +6,43 @@ import { Shield, Droplets, Zap, Home as HomeIcon, Waves, Activity, CheckCircle2,
 import { useRef } from "react";
 
 const pillars = [
-  {
-    id: "01",
-    title: "Pool & Water Systems — Pool Maintenance Dubrovnik",
-    desc: "Comprehensive stewardship of your aquatic assets, ensuring technical precision and crystal-clear perfection.",
-    items: [
-      "Water chemistry testing & balancing (clarity, hygiene, comfort)",
-      "Filtration/circulation servicing (filters, pumps, valves, flow/pressure)",
-      "Equipment servicing (heaters/heat pumps, chlorination/dosing systems, controls)",
-      "Leak investigation & performance troubleshooting",
-      "Seasonal opening & winterisation",
-    ],
-    icon: Droplets,
-  },
-  {
-    id: "02",
-    title: "Core Home Systems — HVAC Servicing Dubrovnik / Air Conditioning Maintenance",
-    desc: "Optimizing the mechanical heart of your villa for maximum efficiency and climate resilience.",
-    items: [
-      "HVAC servicing & performance tuning (filters, drains, airflow, calibration)",
-      "Plumbing inspections & leak prevention (wet areas, valves, pressure)",
-      "Hot water system maintenance (boilers/heat pumps/cylinders; descaling as needed)",
-      "Electrical fault triage + coordination of certified compliance works",
-    ],
-    icon: Zap,
-  },
-  {
-    id: "03",
-    title: "Coastal Property Maintenance / Corrosion Control",
-    desc: "Specialized protection against Mediterranean elements and technical infrastructure oversight.",
-    items: [
-      "Roof/terrace water-ingress inspections & prevention",
-      "Gutters, drains & stormwater flow checks/clearing",
-      "Door/window hardware, seals & corrosion-sensitive components upkeep",
-      "Facade/stone condition monitoring + specialist coordination",
-      "Salt-air protection, corrosion control, and marine-grade recommendations",
-      "Humidity monitoring & mould-prevention actions (ventilation/dehumidifier strategy)",
-      "Safety checks + emergency property response Dubrovnik (isolation/shutoffs, stabilisation, documented call-outs)",
-    ],
-    icon: Shield,
-  },
+    {
+        id: "01",
+        title: "Pool Maintenance Dubrovnik",
+        desc: "Comprehensive stewardship of your aquatic assets, ensuring technical precision and crystal-clear perfection.",
+        items: [
+            "Water chemistry testing & balancing",
+            "Filtration/circulation servicing",
+            "Equipment servicing",
+            "Leak investigation & performance troubleshooting",
+            "Seasonal opening & winterisation",
+        ],
+        icon: Droplets,
+    },
+    {
+        id: "02",
+        title: "Core Home Systems — HVAC Maintenance",
+        desc: "Optimizing the mechanical heart of your villa for maximum efficiency and climate resilience.",
+        items: [
+            "HVAC servicing & performance tuning",
+            "Plumbing inspections & leak prevention",
+            "Hot water system maintenance",
+            "Electrical fault triage + coordination of certified compliance works",
+        ],
+        icon: Zap,
+    },
+    {
+        id: "03",
+        title: "Coastal Property Maintenance / Corrosion Control",
+        desc: "Specialized protection against Mediterranean elements and technical infrastructure oversight.",
+        items: [
+            "Facade/stone condition monitoring + specialist coordination",
+            "Gutters, drains & stormwater flow checks",
+            "Corrosion-sensitive components upkeep, salt-air protection",
+            "Emergency property response (isolation/shutoffs, stabilisation, documented call-outs)",
+        ],
+        icon: Shield,
+    },
 ];
 
 export default function Home() {
